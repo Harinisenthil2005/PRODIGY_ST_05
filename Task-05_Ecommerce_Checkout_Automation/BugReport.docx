@@ -1,0 +1,55 @@
+Defect ID
+
+BUG-001
+
+Defect Title
+
+404 Error displayed when user clicks on Accessories category.
+
+Module
+
+Navigation Module
+
+Severity
+
+High
+
+Priority
+
+High
+
+Environment
+Application: Shoplane E-Commerce Website
+Browser: Google Chrome
+Operating System: Windows 10/11
+Description
+
+When the user clicks on the Accessories category from the navigation menu, the application redirects to a Page Not Found (404) screen instead of displaying the Accessories products.
+
+Preconditions
+User is on the Shoplane homepage.
+Website is accessible.
+Steps to Reproduce
+Open Shoplane website.
+Navigate to the top menu.
+Click on "Accessories".
+Observe the result.
+Expected Result
+
+Accessories products should be displayed on the page.
+
+Actual Result
+
+A 404 Page Not Found error page is displayed.
+
+Status
+
+Open
+
+Attachment
+
+404_Error.png
+
+Recommendation
+
+Verify the route mapping and product category navigation configuration for the Accessories page.
